@@ -1,8 +1,8 @@
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:calculadora/bloc/Operaciones/operaciones_bloc.dart';
 import 'package:calculadora/widgets/panel.dart';
 import 'package:flutter/material.dart';
 import 'package:calculadora/widgets/boton.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
 class Pantalla extends StatelessWidget {
   const Pantalla({Key? key}) : super(key: key);
@@ -24,7 +24,7 @@ class Pantalla extends StatelessWidget {
                 child: Container(),
               ),
 
-              //Panel de datos
+              //data panel
               const Panel(),
 
               Row(

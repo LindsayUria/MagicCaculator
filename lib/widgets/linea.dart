@@ -8,8 +8,8 @@ class Linea extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         width: double.infinity,
-        height: 2,
-        color: Colors.black,
+        height: 0,
+        color: Colors.deepPurple.shade50,
         margin: const EdgeInsets.symmetric(vertical: 10));
   }
 }
