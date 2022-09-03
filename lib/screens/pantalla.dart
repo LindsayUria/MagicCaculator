@@ -10,7 +10,7 @@ class Pantalla extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final opr = BlocProvider.of<OperacionesBloc>(context);
-
+  //title 
     return Scaffold(
       appBar: AppBar(
         title: const Text('                 MAGIC CALCULATOR'),
@@ -52,6 +52,7 @@ class Pantalla extends StatelessWidget {
                   ),
                 ],
               ),
+              //buttons style 
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

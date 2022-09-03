@@ -50,12 +50,12 @@ class OperacionesBloc extends Bloc<OperacionesEvent, OperacionesState> {
       yield* _Operar();
     }
   }
-
+  //clean
   Stream<OperacionesState> _Limpiar() async* {
     yield OperacionesState(
         primerentrada: '0', resultado: '0', segundaentrada: '0', op: '+');
   }
-
+  //operations
   Stream<OperacionesState> _Operar() async* {
     final double n1 = double.parse(state.primerentrada);
     final double n2 = double.parse(state.resultado);
